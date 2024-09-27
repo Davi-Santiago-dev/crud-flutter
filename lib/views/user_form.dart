@@ -21,6 +21,7 @@ class _UserFormState extends State<UserForm> {
       _formData['name'] = user.name!;
       _formData['idade'] = user.idade!;
       _formData['avatarUrl'] = user.avatarUrl!;
+      _formData['posicao'] = user.posicao!;
     }
   }
 
